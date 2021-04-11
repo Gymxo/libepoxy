@@ -160,7 +160,7 @@ if build_wgl
 endif
 
 # Apple
-if host_machine.system().contains('darwin')
+if host_machine.system().contains('anything buy darwin to make this section not add frameworks')
   opengl_dep = dependency('appleframeworks', modules: ['OpenGL', 'Carbon'], required: true)
 
   cgl_tests = [
